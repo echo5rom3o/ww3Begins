@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+	<title>WW3 Is Coming</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="socialLinks">
+			<span> <a href="http://www.thefarm51.com/" target="_blank"><img class="pb-2 mr-2" src="img/f51socialIcon.svg" alt=""></a></span>
+			<span><a href="https://worldwar3.com" target="_blank"><img class="pb-2 mr-2" src="img/ww3socialIcon.svg" alt=""></a></span>
+			<span><a href="https://store.steampowered.com/app/674020/World_War_3/" target="_blank"><i class="fab fa-steam mr-2"></i></a></span>
+			<span><a href="https://twitter.com/ww3thegame" target="_blank"><i class="fab fa-twitter mr-2"></i></a></span>
+			<span><a href="https://www.reddit.com/r/WorldWar3Game/" target="_blank"><i class="fab fa-reddit-alien mr-2"></i></a></span>
+			<span><a href="https://www.youtube.com/c/WorldWar3TheGame" target="_blank"><i class="fab fa-youtube mr-2"></i></a></span>
+			<span><a href="https://discord.gg/QDeKzky" target="_blank"><i class="fab fa-discord mr-2"></i></a></span>
+		</div>
+		<img class="logo" src="img/ww3Logo.svg" alt="ww3Logo">
+		<div class="timer">
+			<div class="timerHeader">
+				<div class="timeTitle" id="timer-title"></div>
+				<div class="timerText" id="demo"></div>
+				<div class="timeDay" id="days"></div>
+			</div>
+			<div class="countDown">
+				<span class="timeBox" id="hours"></span>
+				<span>:</span>
+				<span class="timeBox" id="mins"></span>
+				<span>:</span>
+				<span class="timeBox" id="secs"></span>
+			</div>
+			<div class="disclaimer">
+				This counts down to the only official date we have, "Fall 2018". So the first day of fall. This countdown timer will be updated when we recieve an official release date.
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="commInter text-center row">
+			<div class="col-md-6">
+				<h2 class="text-center mt-4">Community Interaction</h2>
+				<span class="">
+					<a class="btn btn-danger" href="https://docs.google.com/document/d/1Yepkw_Q4AX3CwtDnnCFONZQjpUPI_RSRfGtIM5ZgTRo/edit?usp=sharing" target="_blank">Original AMA Document</a>
+				</span>
+				<span class="">
+					<a class="btn btn-danger" href="http://worldwar3.com/files/WW3presskit.zip" target="_blank">Media Press Kit</a>
+				</span>
+			</div>
+			<div class="col-md-6">
+				<h2 class="mt-4">Upcoming AMAs</h2>
+				<span class="">
+					<a class="btn btn-danger" href="https://goo.gl/forms/Vv4PncRDBM8QG66o2" target="_blank">Add a question</a>
+				</span>
+				<span class="">
+					<a class="btn btn-danger" href="https://docs.google.com/spreadsheets/d/1W68_jxtF3mbAv07mtkrhJuHeNFuReeQUxkIXKvkihSM/edit?usp=sharing" target="_blank">Current list of questions</a>
+				</span>
+			</div>
+		</div>
+		<div class="steamAMA">
+			<h2 class="text-center mt-5 mb-3">Impromptu Q&As</h2>
+			<div class="accordion" id="accordionExample">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Steam Discussion Q&A (updated 23-06-18)
+							</button>
+						</h5>
+					</div>
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="q">
+								Q: Will teamwork be more satisfying than going rogue and kiling?
+							</div>
+							<div class="a mb-4">
+								A: We're working hard on making this game teamwork-focused. We have squad leaders who can issue orders, by finishing orders you get points that allow you to call in artillery support, drones and vehicles. So teams that play the objective and listen to their leader will have an edge over people going rambo. You may spend ten minutes running around and farming kills to get that tank or you may stick together, accomplish an objective and get that tank in half the time*. We hope that, among other things, will keep players focused on teamwork.
+							</div>
+							<div class="q">
+								Q: Will there be quick throw and quick knife buttons? Could they mimic classic games with seperate switchable keys?
+							</div>
+							<div class="a mb-4">
+								A: We have a quick throw for grenades for convenience's sake but the exact throwing time will be balanced to counter 'nade spam (we also have friendly fire so random grenades often do more harm than good). We have no knives at the moment and our melee will work a little bit different than in most other games. No one-hit-kill frag wonder-buttons.
+
+							</div>
+							<div class="q">
+								Suggestion: Releastic and classic reload system where if a magazine is changed it should be lost forever. As example 30/4 where 30 indicates the bullets inside the magazine and 4 is the amount of magazine instead of 30/120 (COD style).
+							</div>
+							<div class="a mb-4">
+								Response: We considered that but it's too hardcore for most players and we're sticking with the CoD-style system. However, if most of the player base will be interested in making the game more realistic we can consider switching the ammo system.
+							</div>
+							<div class="q">
+								Suggestion: Seriously NO HEALTH regeneration!
+							</div>
+							<div class="a mb-4">
+								Response: We have partial health regeneration - Your health bar is seperated into "blocks" and you can only regenerate to a certain amount without using a med kit. So you won't be left as a one-hit kill with 1% HP, but you will want to stick to players with medical supplies or carry them yourself because, say, 30% HP is still pretty damn little. Armor also influences how long you can last in combat and it doesn't regenerate, you need to resupply it manualy, always.
+							</div>
+							<div class="q">
+								Q: Will hit markers be in the game?
+							</div>
+							<div class="a mb-4">
+								A: Yes, we have hitmarkers in WW3.
+							</div>
+							<div class="q">
+								Q: Any classes in game? Or will the player have the ability to equip any gadget?
+							</div>
+							<div class="a mb-4">
+								A (Muflex): No classes, we do not want to limit our players in terms of the equipment they want to use on the battlefield. The only limitation will be the weight of the chosen gear.
+								<br>
+								A (Borreh): Weight will influence a whole range of things. Selecting the correct weight of a loadout for the correct task will be a part of the fun :)
+
+								During our evening play sessions I'm already finding myself wondering "uhhh I'd be cool to take that but it will overburden me uhm so maybe this instead? or no ehhh" quite often...
+
+								We'll gladly share more details when the time comes so stay tuned.
+							</div>
+							<div class="q">
+								Q: In World in Conflict the game had a feature called tactical aid where you can call off map support such as vehicle drops, artillery/air strikes or aerial recon. will WW3 have a similar mechanic in this game?
+							</div>
+							<div class="a mb-4">
+								A: Yes, during the match player will get points for completing map objectives and killing enemies. If he/she reaches certain amount of point it's possible to spawn a vehicle, drone or call for aerial strike on designated point on the map.
+							</div>
+							<div class="q">
+								Q: When a match starts, Will soldiers ( Players ) be spawned in say, a truck / on a chopper / on foot as they move into the actual fighting area like some kind cinematic scene? Or it is like Battlefield, where you will spawn at a base / fixed location a little away from the actual objectives, then you move in from there?
+							</div>
+							<div class="a mb-4">
+								A: You start in your base at the beginning. Intro cut-scenes were talked about but even if they will be in the game it won't be during EA launch.
+								There is a seperate insertion method for the Recon game mode but I don't think I can talk about it just yet.
+							</div>
+							<div class="q">
+								Q: Will there be medkits?
+							</div>
+							<div class="a mb-4">
+								A: Yep, medkits are in, in more than one form in fact!
+							</div>
+							<div class="q">
+								Q: Will this game transcend the borders between COD and Battlefield?
+							</div>
+							<div class="a mb-4">
+								A: A few months back we settled that our ideal was something in-between Battlefield and Insurgency but everything is subject to change during our internal tests. But that's what we're aiming at, currently at least.
+							</div>
+							<div class="q">
+								Q: In the trailer, the guns looked closer to COD then Battlefield. Will the gun play have similar to feel to Battlefield?
+							</div>
+							<div class="a mb-4">
+								A: In the trailer the guns weren't at all balanced, we're going through that right now, the guns will have recoil, probably even more so than in Battlefield.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="AMA1">
+			<h2 class="text-center mt-5 mb-3">AMA - 15/06/2018</h2>
+			<div class="accordion mb-5" id="accordionExample">
+				<div class="card">
+					<div class="card-header" id="headingOne">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							  Gear and Customization
+							</button>
+						</h5>
+					</div>
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" 	data-parent="#accordionExample">
+						<div class="card-body">
+							<h4>Gear</h4>
+							<div class="q">
+								Q: How many weapons are available on early access ?
+							</div>
+							<div class="a mb-4">
+								A: Assault rifles, SMGs, LMGs, Precision Sniper Rifles, Explosive weapons (RPG and such), shotguns and pistols. There are also different types of grenades, gadgets (claymores, semtex etc.), so there's gonna be a lot of stuff for you to play with.
+							</div>
+							<div class="q">Q: "How many weapon classes will we see (Assault rifles, SMGs, LMGs, DMRs,etc.)?"</div>
+							<div class="a mb-4">A: Assault rifles, SMGs, LMGs, Precision Sniper Rifles, Explosive weapons (RPG and such), shotguns and pistols. There are also different types of grenades, gadgets (claymores, semtex etc.), so there's gonna be a lot of stuff for you to play with.</div>
+							<div class="q">Q: "Will all weapons be buyable with in-game money or there will be premium ones also?"</div>
+							<div class="a mb-4">A: There will be no premium weapons. Every single one of them will be buyable with in-game currency.</div>
+							<div class="q">Q: Will you only be able to choose weapons based on your country or any weapon on any side ?</div>
+							<div class="a mb-4">A: No limits when choosing your gear.</div>
+							<div class="q">Q:Will the weapon selection be limited to only modern weapons or will we have access to older (WWII) weapons as well? For example, will the wz.35 Vis pistol be in the game? <a href="http://fabrykabroni.pl/wp-content/uploads/2016/02/vis-02.jpg" target="_blank">example</a> </div>
+							<div class="a mb-4">A: we're keeping the weapons mostly to what is used by the modern military, but there are some iconic pieces there :)</div>
+							<div class="q">Q: What about sniper rifles and their modifications? Will you add Barrett, As-50, SVD and other?</div>
+							<div class="a mb-4">A: On the Early Access we will have T5000, G29 and TOR 12.7, we are planning to add AWM, M200 in future</div>
+							<div class="q">Q: Will there be special forces equipment like in the real world? Guns like H&K416 etc.</div>
+							<div class="a mb-4">A: yes!</div>
+							<div class="q">Q: Can you give any hard facts about the attachment system, such as what exactly we'll be able to customize and how it will affect the gun? Can you make an absolutely different weapon?</div>
+							<div class="a mb-4">A: It will be very versatile.
+							Gameplay customization - weapons (stocks, barrels, sights, magazines, grips, laser modules,flashlights). You can change attachments and body parts on the weapon making it work in different situations. Armor plates, Vehicles (armors, turrets, remote control weapon stations, active protection systems)Visual customization: uniforms, helmets, headgear, camos, flags, badges, body paints, face paints, emblems...
+							Quite likely even more during early access.</div>
+							<div class="q">Q: Can the player choose nades only for his equipment besides say light armor?</div>
+							<div class="a mb-4">A: Close, but not this hardcore. You can choose to take more or less weapons, but you should always have something to defend yourself and we're trying to limit grenade and rpg spam since it's annoying for us too :p</div>
+							<div class="q">Q: What type of protection can we choose?</div>
+							<div class="a mb-4">A: You can choose your helmet and ballistic plate when it comes to soldiers and for heavy vehicles you can customize the armor you take - but remember, armor is heavy!</div>
+							<div class="q">Q: "Will we see modern night vision goggles (like gpnvg-18) and night maps in the game?"</div>
+							<div class="a mb-4">A:  We're working on it, can't confirm anything now though.</div>
+							<div class="q">Q: Will we get some artillery stuff like military mortars or tanks, armored tracks only?</div>
+							<div class="a mb-4">A: There are various options when it comes to delivering ordinance from a distance</div>
+							<div class="q">Q: I saw a small wheeled drone on your announcement trailer, what was that? What was it's purpose</div>
+							<div class="a mb-4">A: It's a little reconnaissance drone called Nerva. You're gonna be able to use it to track enemy movement and - just like in the trailer - attach an explosive surprise to get the party going. <a href="https://www.epequip.com/catalogue/unmanned-ground-vehicles/nerva-lg-versatile-light-robotic-system/" target="_blank">example</a></div>
+							<div class="q">Q: Will there be any character progression in-game and what form will that take?</div>
+							<div class="a mb-4">A: There will be standard xp based progression that rewards the time you've spent in the game, but we're not planning on forcing you to play 100hrs for a certain part or weapon.</div>
+							<h4>Customization</h4>
+							<div class="q">Q: The game is apolitical,and Russia is one against all? Make Ukraine her ally and add China,no one is offended?</div>
+							<div class="a mb-4">A: We're trying to keep as far away from real politics as we can, with the game set in 2026, we can, fortunately, keep it as a fictional setting. Unlikely allies are possible so all our players can play with each other.</div>
+							<div class="q">Q: "Poland Fighting" on the arm of the polish soldier suggest that game was supporting by former GROM members? </div>
+							<div class="a mb-4">A: Yes, our company has quite long history in cooperating with Polish military R&D centres and special forces consultants.</div>
+							<div class="q">Q: "Don't want a map of China, so the game could be blocked on the Chinese Internet" </div>
+							<div class="a mb-4">A: We know it's complicated. We'll try to figure something out.</div>
+							<div class="q">Q: "Will the camos be army-specific or am i going to be able to put any camo on any soldier from any army? For example, Izlom on a german soldier"</div>
+							<div class="a mb-4">A: Total freedom, man. We're not gonna tell you what to do.</div>
+							<div class="q">Q: So far we have seen 4 factions UK, Germany, Poland, Russia in the trailer and i was wondering how the team would be divided to</div>
+							<div class="a mb-4">A:It's just a visual customization, You can be on each side of the conflict</div>
+							<div class="q">Q: "How much localization can be achieved?"</div>
+							<div class="a mb-4">A: We shall see. We'll try to make enough to satisfy you guys.</div>
+							<div class="q">Q:"Is the country only once selected?"</div>
+							<div class="a mb-4">A:No. You can change your national gear and visual identification any time. But changing faction will make you lose loyalty multiplayer.</div>
+							<div class="q">Q: Again, How will the factions be divided into ? Will it be restricted to Nato Vs Russia?</div>
+							<div class="a mb-4">A: We're not going to restrict people very much, we're putting gameplay fun over politics any day</div>
+							<div class="q">Q: how many Nations Are Involved in world war 3 and will there be other settings other then Europe?</div>
+							<div class="a mb-4">A: We've got 5 nations, but as the war continues, more will join</div>
+							<div class="q">Q: Will female soldiers be an option?</div>
+							<div class="a mb-4">A: We'd love to have female soldiers on the frontlines from day one but there are other priorities before early access release (optimization, net-code) so we'd probably introduce then during early access.</div>
+							<div class="q">Q: "What type of menu options can we expect? Things like a FOV slider, widescreen support, high resolution support, colorblind mode, etc."</div>
+							<div class="a mb-4">A: Basically what you just said. We already have an FOV slider, widescreen support is there as well, some of us play in 4K res... We have it.</div>
+							<div class="q">Q: Will other countries and nationalities be added after the game's initial release in future updates, if so how many?</div>
+							<div class="a mb-4">A: Sure! We don't know how many, but there are plans to keep tabs on where the game is popular and add the countries and nationalities that players want. For now I can tell you that there are going to be British and American expeditionary forces.</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Maps and Gamemodes
+							</button>
+						</h5>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						<div class="card-body">
+							<h4>Maps</h4>
+							<div class="q">Q: How big are maps, comparing for example with the biggest maps from BF4?</div>
+							<div class="a mb-4">A: Imagine a few blocks of a capital city. Our urban maps are approx. 1 km squared</div>
+							<div class="q">Q: Hello.You said you will have maps based on realistic locations.What does that mean exactly?(size/details/places)?</div>
+							<div class="a mb-4">A: Our urban maps are very closely based on real cities, with outdoors slightly less so</div>
+							<div class="q">Q: How many theaters of war are planned apart from Europe?</div>
+							<div class="a mb-4">A: We're planning on adding more and more locations as the game progresses. We'll see what is requested the most and add it.</div>
+							<div class="q">Q: Are you gonna make front-line maps or only cities?</div>
+							<div class="a mb-4">A: We'd like to have wide variety of maps so there'll be more open/landmark maps, not only cities.</div>
+							<div class="q">Q: How exactly would the world war map look like, could you provide some details on that? I'm assuming it's something similar to the idea of H&G?"</div>
+							<div class="a mb-4">A: We'll reveal more info soon, stay tuned.</div>
+							<div class="q">Q: will the game map size smaller than cod:ww2 ?</div>
+							<div class="a mb-4">A: much larger</div>
+							<div class="q">Q: "Will there be more Polish maps as DLC after the game is released? :D"</div>
+							<div class="a mb-4">A: We'll see! We'd like to make some more Polish maps, but we have to keep in mind that everybody would like to have a map in their country.</div>
+							<div class="q">Q: How do you plan on adding vehicles in such small maps? I mean, 1km square sounds pretty small for vehicular combat, especially if you'd like to put Helis in the game at some point!</div>
+							<div class="a mb-4">A: We have outdoor maps planned that will be larger.</div>
+							<div class="q">Q: "Will there be nice high ground sniper spots and close quarters fight places?"</div>
+							<div class="a mb-4">A: Sure! It's good for gameplay, innit?</div>
+							<div class="q">Q: "is there gonna be different environments? ie not just cities but also forests, mountains etc"</div>
+							<div class="a mb-4">A: Yes, we'd like to have a wide variety of maps. Generally we divide maps into two kinds - urban (cities) and outdoors (like woodlands, deserts etc.). We also have plans to test prototype maps with community to get lots of feedback about gameplay and so on.</div>
+							<div class="q">Q: "Will you add Island Battles?"</div>
+							<div class="a mb-4">A:  We'll see. Can't confirm - won't deny.</div>
+							<div class="q">Q: How big will the maps be vertically?</div>
+							<div class="a mb-4">A: As big at the real locations are, if that's what you mean. If you ask about gameplay verticality, you can be sure we're thinking about it.</div>
+							<div class="q">Q: Do you plan to have maps set not only in europe but across the world?</div>
+							<div class="a mb-4">A: We'd like to spread all over the world, it's a World War damn it! We're not focused on Europe so further development in terms of next maps will be determined by community feedback.</div>
+							<div class="q">Q: Are we going to have a test range?</div>
+							<div class="a mb-4">A: Yeah, it's gonna be there at some point.</div>
+							<div class="q">Q: Will London be a map?</div>
+							<div class="a mb-4">A: Not at the start of EA</div>
+							<div class="q">Q: Will there be a chance to play WW3 in night scenery? </div>
+							<div class="a mb-4">A: Yes, we actually believe it's best to play WW3 in the evening, you know all the errands finished, work done, nothing distracting you form pure gaming experience On the more serious tone - we'd like to have night maps but it won't be available from day one, maybe we'll introduce this feature during early access if it becomes one of the ore popular requests.</div>
+							<h4>Gamemode</h4>
+							<div class="q">Q: While there be smaller gamemodes like s&d and tdm type modes?</div>
+							<div class="a mb-4">A: We'd like that and will probably introduce those during early access. First we need to polish Warzone and Recon.</div>
+							<div class="q">Q: Game mode: bf or planetside or something else?</div>
+							<div class="a mb-4">A: It's not like Planetside 2. The maps are separate, but the effect of every battle is presented on the War Map. In that sense it's more similar to BF.</div>
+							<div class="q">Q: "Will there be a Battle Royale Mode (LUL) will there be a crosshair?"</div>
+							<div class="a mb-4">A: Yes we will have a BR like mode, but it's not a clone or reskin of other BR games. It's our own take on the subject. Urban, objective and squad based game mode. It's called Recon. More info soon</div>
+							<div class="q">Q: "How many game modes will there be? Ex. CTF, TDM, etc?"</div>
+							<div class="a mb-4">A: "When WW3 enters early access there will be 2 game modes - Warzone and Recon. We believe that is better to have two solid game modes which give you a lot of fun than multiple game modes that nobody cares about.Trust me that we have a lots of crazy ideas for new game-modes which we want to discuss with the community but the two (warzone/recon) we have right now are our priority at this point."</div>
+							<div class="q">Q: "How many squads can fight at once in ur "battle royal" mode"</div>
+							<div class="a mb-4">A: We are still experimenting with it. We want to achieve tactical but nerve wracking feel in this game mode</div>
+							<div class="q">Q: "What the gameplay will be like. Conquest, control point, operation, team deathmatch?"</div>
+							<div class="a mb-4">A: First of all the gameplay will kick ass. We're gonna have two game modes when we enter early access - Warzone and Recon. Warzone is more traditional, there are points to capture, vehicles and so on, while Recon is our fresh approach to the battle royale genre which, according to what's currently on the market, has never been tried by anyone.</div>
+							<div class="q">Q: How many players can be in a match?</div>
+							<div class="a mb-4">A: In Warzone mode up to 64 players, In Recon it's still to be decided (player experience is the priority) and we'd gladly hear your feedback during early access</div>
+							<div class="q">Q: "How does round or match gameplay affect the strategic world map?"</div>
+							<div class="a mb-4">A:  You gain strategic resources which you then distribute among certain areas of the map. This allows you to gain additional bonuses for your faction if you contribute enough</div>
+							<div class="q">Q: "What are those additional bonuses for faction on a world map?"</div>
+							<div class="a mb-4">A: By controlling points of interest you can influence the game economy. By controlling the cities your faction is gaining small gameplay bonuses. More information on meta game soon</div>
+							<div class="q">Q: How big are the battles going to be? 32vs32?</div>
+							<div class="a mb-4">A: As big as it's fun to play, but we're currently aiming at 32, 48 and 64 player map variants</div>
+							<div class="q">Q: Will there be a ranked/competitive mode?</div>
+							<div class="a mb-4">A: not at the start, we'll consider it later in the development</div>
+							<div class="q">Q: Do you have plans for a campaign?</div>
+							<div class="a mb-4">A: No such plans for near future.WW3 will be purely multiplayer, however if WW3 will be successful who knows ? We have many friends who serve in the army, experienced real war in the Middle-East and some other places around the world etc. We think that none of today singleplayer FPS games shows the real face of war, the real tension and fear of combat, so eveything is possible in the future.</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							  Vehicles
+							</button>
+						</h5>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						<div class="card-body">
+						<div class="q">Q: We know that players won't be able to pilot jets or sail ships on the release of the game but Do you plan to make them drivable by players in the future?</div>
+						<div class="a mb-4">A:  It's possible but not planned for near future.</div>
+						<div class="q">Q: What planes will you be able to fly?</div>
+						<div class="a mb-4">A: None, at least for now.  We've got quite a few flying drones though - we also have  plans to add drone helicopters like Dragonfly or MQ-8C Fire Scout.</div>
+						<div class="q">Q: So we won't see manned-aircraft played by players?</div>
+						<div class="a mb-4">A: Nope, World War 3 was designed with emphasis on infantry and vehicle combat. On the modern battlefield the jets provide support and precision strikes on the targets indicated by infantry. Because of that, in WW3, jets will act as support and won't be player controlled.</div>
+						<div class="q">Q: what kind of vehicles are we going to see in the game?</div>
+						<div class="a mb-4">A: Tanks, IFVs, APCs, UGVs, UFVs</div>
+						<div class="q">Q: "Will there be only dediated mbts like the leopard 2 and the t-90 and ifvs like bmps or more specific vehicles like the pzh2000, bmpt-72 terminator2, spz fuchs, tos-1 buration and so on ?"</div>
+						<div class="a mb-4">A: You will be able to customize each vehicle to make it look and feel like a specific version of the base vehicle. Take a basic Leopard 2A4 and make it into a  Leo 2SG if you want. It's all about your creativity and needs.</div>
+						<div class="q">Q: Will there be a light armored vehicle  to transport infantry?</div>
+						<div class="a mb-4">A: Yeah</div>
+						<div class="q">Q: "Will there be vehicles that require multiple people to operate?!"</div>
+						<div class="a mb-4">A: Yes! But there are also options to lock your vehicle and/or kick out unwanted soldiers.</div>
+						<div class="q">Q: "will there be air controlled plane vehicles and sea?"</div>
+						<div class="a mb-4">A: Air vehicles will take supportive role, they will be called in by ground troops as in real life. Map design is focused on ground combat, soldiers and armored vehicles play the main role in WW3. Thanks for the question</div>
+						<div class="q">Q: With the great popularity of World of Tanks in your target regions, can we expect modern tank battles? (exclusively tanks, no aircraft or infantry)</div>
+						<div class="a mb-4">A: not in the Early Access, but there's no technical reason we can't add a game mode like this later</div>
+					</div>
+	  				</div>
+				</div>
+				<div class="card">
+					<div class="card-header" id="headingFour">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							  Mechanics and Gameplay
+							</button>
+						</h5>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="q">Q: Will shooting in WW3 be similar to shooting in Escape From Tarkov or Arma 3</div>
+							<div class="a mb-4">A: It's not as realistic as in Arma. We kept the ballistic curves and overall weapon characteristics close to the real thing, but we had to scale down the effective ranges to around a half in order to keep various types of weapons viable.</div>
+							<div class="q">Q: Is WW3 gonna be the game which shows hardcore players that playing Arcade can also give fun, or the game which shows the arcade players that realistic shooter can also be funny?</div>
+							<div class="a mb-4">A: We are pushing for authentic feel but the fun factor and gameplay will always have priority. So we hope both group of players will enjoy WW3</div>
+							<div class="q">Q: There will be any form of team organisation? Like squads and squad leader?</div>
+							<div class="a mb-4">A: Yes, there will be a squad system with squad leader playing an important role, more details soon.</div>
+							<div class="q">Q: will there be lean ingame</div>
+							<div class="a mb-4">A: Yes, and it will be input based, not automatic.</div>
+							<div class="q">Q:Hey guys! How do you plan on balancing the game without classes? No classes could mean people running around with sniper rifles all day, and i'm sure it's not what you guys want</div>
+							<div class="a mb-4">A: We have implemented a weight system which influences many other mechanics in the game. Also gadgets and strikes should balance many different play styles. WW3 was designed with paper, rock, scissors system in mind. Thanks for the question</div>
+							<div class="q">Q: Trailer has this move when you can shoot back laying on the back, will we see this in combat?</div>
+							<div class="a mb-4">A: Yes! And it's dynamic and sweet</div>
+							<div class="q">Q: "Will there be any unlockables? And if how long will it take to unlock everything"</div>
+							<div class="a mb-4">A: Yes. There will be a progression system. You will unlock stuff while leveling up but also buy with in game currency. We are planning to give you some good challenge</div>
+							<div class="q">Q: "Will players who like a more supportive roles be rewarded in a relatively equal way to that of the offensive role?"</div>
+							<div class="a mb-4">A: The rewards will be relatively equal, yes. It's important to remember that once you choose to play as a Defender you will gain more points for defensive actions, so you'll have to focus on - for example - defending the capture point more than on attacking individual enemies.</div>
+							<div class="q"> Q: Will playing Objective be more or at least equally rewarded in comparison to "playing for kills"?</div>
+							<div class="a mb-4">A: Completing objectives will be more rewarded than just fragging</div>
+							<div class="q">Q: Will projectiles  originate from the face or more from the gun?</div>
+							<div class="a mb-4">A: we've got a hybrid hitscan/ballistic system, so in close quarters we're tracing from the camera and spawn real projectiles after a certain distance</div>
+							<div class="q">Q: "Will there be Revolution like in BF4"</div>
+							<div class="a mb-4">A: If by "revolution" you mean the ability to destroy buildings and otherwise alter the "big" geometry of the maps - no. You're gonna be able to destroy some props though.</div>
+							<div class="q">Q: What do you think is the percentage balance between teamplay and lone wolf playing in the game? What will happen if I will move far away from the squad?</div>
+							<div class="a mb-4">A: The emphasis in WW3 is put on squad cooperation and player will be rewarded for fulfilling the role of squadmate. You try lone wolf but you won't get points for squad cooperation.</div>
+							<div class="q">Q: Any strategic elements? tactical bombings, supply drop, etc.?</div>
+							<div class="a mb-4">A: Yes, and kinda. There are many tactical elements that require teamplay, like supplies. You need to rely on your squad and team to keep on fighting.</div>
+							<div class="q">Q: "Which Spot System can we Expect from WW3 ?"</div>
+							<div class="a mb-4">A: Spotting will be a hybrid of some known systems we liked from other fps shooters</div>
+							<div class="q">Q: FPS or TTS?</div>
+							<div class="a mb-4">A: FPS</div>
+							<div class="q">Q: will there be dynamic environments ( destructible scenery ,weather, day & night)?</div>
+							<div class="a mb-4">A: Due to large scale of the maps and level design it will be limited, you will be able to destroy some parts of the environment etc. we want to be focus on gameplay first and after that we get back to destructions (btw online destruction is very hard topic in unreal technology for indie studios).</div>
+							<div class="q">Q: Will there be a Commander mode?</div>
+							<div class="a mb-4">A: nope</div>
+							<div class="q">Q: "Will the game feature anti Air scorestreak? Something like a  fighter jet passing and taking down enemy Air assets with its missile"</div>
+							<div class="a mb-4">A: Well, you can shoot the drones down using your usual weapons. There are for examples jamming drones But no spoilers.</div>
+							<div class="q">Q: How many soldiers will the squads have?</div>
+							<div class="a mb-4">A: 4-5 We experiment with balance</div>
+							<div class="q">Q: Can we shoot an enemy through thin wall, doors and other penetrable obstacles like windows, car doors etc.?</div>
+							<div class="a mb-4">A: out ballistic system takes into account the material depth and density and will let some projectiles through if they should go through in real life. We'll keep it sensible for the game, but the system should allow us to do whatever we want with punching through stuff</div>
+							<div class="q">Q: "Can I revive my teammates"</div>
+							<div class="a mb-4">A:  No, we have other mechanics implemented that allow us to tackle this issue in a playable way.</div>
+							<div class="q">Q: Will there be limited time events?</div>
+							<div class="a mb-4">A: We'd very much like that but can't give you much details atm.</div>
+							<div class="q">Q: how complex is the bullet system?</div>
+							<div class="a mb-4">A: quite complex, with wind, drag and different surface simulation, but we will be testing how much of it is really playable, we've gone a bit overboard with it ;)</div>
+							<div class="q">Q: Is game will be dynamic as COD or more strategic and passive like old BFs?</div>
+							<div class="a mb-4">A: From those two it will be closer to old BFs (we're huge fans of those :))</div>
+							<div class="q">Q: "Are you able to go into more detail in what an XP based progression system would unlock? Gear/cosmetics and how will you keep the gameplay balanced for those of a lower level"</div>
+							<div class="a mb-4">A:  By gaining XP  you're gonna earn in-game currency, which will be used to buy weapon parts and improvements. How will we keep it balanced? There will be no objectively weak options. Even a basic weapon has it's advantages - since it has no attachments it's relatively light, so you can run faster.</div>
+							<div class="q">Q: Is player progress capped at some point? Like fixed lvl cap?</div>
+							<div class="a mb-4">A: it is, but we're planning to have some fun with it, so keep an eye out for more info</div>
+							<div class="q">Q: Could you elaborate more on your ballistics claim as seen on your site? Quote: "The most authentic bullet vs. armor system in the FPS genre to date"</div>
+							<div class="a mb-4">A: Sure. We went bonkers with it and implemented for example: bullet drag, wind, material penetration, ricochets and bullets are "real projectiles". We are now testing and balancing all of it. Gunplay have number one priority for us. But it must be also fun</div>
+							<div class="q">Q: "Will the vehicle mechanics be balanced against infantry and complement the level design?"</div>
+							<div class="a mb-4">A:  Sure! WW3 aims to show the cooperation of armored units and infantry, and we had to keep that in mind while designing levels and mechanics.</div>
+							<div class="q">Q: Will top tier Sniper rifles (Barrett M82) insta-kill on hit?</div>
+							<div class="a mb-4">A: It all depends on where you hit em We have sweet spot system implemented and there's the personal armor of course so to sum it up - it depends</div>
+							<div class="q">Q: I didn't see the answer so I ask one more time. How about the destruction system? Is it possible to destroy some wall or building using weapon just like in BF5? Thanks guys! Great job!</div>
+							<div class="a mb-4">A: Due to large scale of the maps and level design it will be limited, you will be able to destroy some parts of the environment etc. we want to be focus on gameply first and after that we get back to destructions (btw online destruction is very hard topic in unreal technology for indie studios).</div>
+							<div class="q">Q: "Will vegetation provide effective concealment? If yes, are ghillie suits planned?"</div>
+							<div class="a mb-4">A: The camouflages and vegetation provide some concealment. We don't have ghillie suits right now but I don't see any reason why not to implement them in the feature. Cheers, mate.</div>
+							<div class="q">Q: "What health system will this game have? Arcade one like Hit Points and recovering by medkits and such or something more sophisticated?"</div>
+							<div class="a mb-4">A: Hit points, although you won't be able to recover them all without using a medkit.</div>
+							<div class="q">Q: "What is damage like? How many shots for kill on average and will there be a knocked mechanic where you can be picked up by anyone"</div>
+							<div class="a mb-4">A: We are still experimenting with it but we are trying to achieve a balance where TTK enables players to flank. But there is also an personal armor which changes TTK significally, it encourages you to position yourself in a right way (with strike plate in direction of fire). There is no revive mechanic at that point. Thanks</div>
+							<div class="q">Q: Are the sprinting in the game limited or run freely?</div>
+							<div class="a mb-4">A:  Weight will affect the sprint speed but apart from that you can run freely (no stamina system).</div>
+							<div class="q">Q: "will there be a recoil pattern for the guns like in csgo?"</div>
+							<div class="a mb-4">A: There is a certain pattern, so once you start using a gun you'll be able to learn how to play efficiently with it.</div>
+							<div class="q">Q: will be there  much recoil on weapons and  bullet drop?</div>
+							<div class="a mb-4">A: we simulate bullets flying, so sure there is bullet drop, even from pistol shots. "much recoil" isn't really precise, we have different weapons with different recoil values</div>
+							<div class="q">Q: What type of chat system will be implemented? Will it just be squad based voice chat, or local voice and radio chat, along with text chat of course.</div>
+							<div class="a mb-4">A: We've got different channels to communicate with your team and squad, we won't have voice channels for now, but we're not opposed to the idea</div>
+							<div class="q">Q: Are you able to go into more detail in what an XP based progression system would unlock? Gear/cosmetics and how will you keep the gameplay balanced for those of a lower level?</div>
+							<div class="a mb-4">A: We don't want you to have to wait for 200 hour for one certain item, so you can unlock everything for in-game currency that you earn by playing</div>
+							<div class="q">Q: How does infantry gain access or earn the ability to use bombing and precision air strikes such as missiles?</div>
+							<div class="a mb-4">A: By completing map objectives (capturing points, defending points) and by fight (killing enemies, assisting in a kill) you gain points you can spend on various support vehicles (tanks, IFVs, precisions strikes, recon drones etc).</div>
+							<div class="q">Q: Will tanks be damaged by regular gun fire or do you have to have dedicated anti tank player in your squad?</div>
+							<div class="a mb-4">A: there are different parts of the vehicle that are more or less bulletproof. You won't be able to touch tank's armor with your gun, but there are system on the tank like optics and RCWS that are more prone to breaking with lead.</div>40
+							<div class="q">Q: Will there be classes and if yes how many of them?</div>
+							<div class="a mb-4">A: No, in WW3 we don't have classes but there's so many customization and gear options you can "build" every stereotypical class from the scratch.</div>
+							<div class="q">Q: How long is 1 match? </div>
+							<div class="a mb-4">A: we're still testing, but it really depends on how the teams are doing. We're aiming at 30-60 minutes for now</div>
+							<div class="q">Q: What about those flying missiles? Do we have a control over them? How we unlock this?</div>
+							<div class="a mb-4">A: Yes, when you gain points from completing map objectives and the fight you can call a precision strike form the jets on the target designated by you.</div>
+							<div class="q">Q: Is it possible  for country to change side (by for ex. voting)  from  NATO to Russia or to make unrealistic alliances like Baltic states vs NATO vs Russia vs Polish-Hungary?</div>
+							<div class="a mb-4">A: Yes, we want to make sure our players have someone to play with and in case of massive imbalance you'd be stuck in matchmaking.</div>
+							<div class="q">Q:"How tactical will the warzone map will be? Can we chose to flank or cut of a map point from the other and will it make a difference?"</div>
+							<div class="a mb-4">A:We are trying to force players into hard and tactical decisions, it is not a 1:1 conquest clone. Epic flanks will be rewarded</div>
+							<div class="q">Q: Is Free Aim going to be a thing and if it is will it be forced on? If its forced many people will hate it</div>
+							<div class="a mb-4">A: We don’t have free aim at the moment, we do have free look.</div>
+							<div class="q">Q: "Will there be nade spamming"</div>
+							<div class="a mb-4">A: There's friendly fire, so it would be very unwise to throw nades everywhere.</div>
+							<div class="q">Q: can we going on the roofs on buildings Battlefield 2 with zip lines .....</div>
+							<div class="a mb-4">A: We don't plan on having zip lines on the start of EA</div>
+							<div class="q">Q: "What type of rank system will be in place?"</div>
+							<div class="a mb-4">A: It's based on real military ranks, however that's not the end of it.</div>
+							<div class="q">Can you kill someone by riding tank/vehicle over people?</div>
+							<div class="a mb-4">A: Yep, pretty much</div>
+							<div class="q">Q: Would you consider adding a way to climb on a tank and sit on it  On the sides etc</div>
+							<div class="a mb-4">A: It's an idea we thought about, but it's not gonna be in the game now. You'll be able to attach semtex to moving vehicles and make mobile bombs, so... There's always that, eh?</div>
+							<div class="q">Q: Will there be some sort of system in place to promote inter-squad cooperation? Or will it just be multiple squads on each side loosely fighting one another?</div>
+							<div class="a mb-4">A: Squad play is at the heart of WW3. You will gain an edge by playing in one (faster strikes, more map options etc.). There are also in-squad objectives</div>
+							<div class="q">Q: What does WW3 bring to the table that other games don't offer? What does it do better?</div>
+							<div class="a mb-4">A: We've got a robust ballistics system, armor plates, various drones and vehicles, other strikes, gadgets and stuff. Everything is designed to keep people working together and rely on their teammates. We also have extensive customization, with weapon parts, clothing and even vehicle parts.</div>
+							<div class="q">Q: "what about buggy mechanics like dolphin diving and bunny hopping ? how do you plan to counter those ?"</div>
+							<div class="a mb-4">A: You can't shoot while falling/jumping, so bunny hopping is pretty much useless. Our full body awareness system counters that kinda stuff.</div>
+							<div class="q">Q: What the ammo count will be like number of magazines or bullets?</div>
+							<div class="a mb-4">A: Bullets</div>
+							<div class="q">Q: Can a squad leader issue instructions using in game mechanics?</div>
+							<div class="a mb-4">A: Yes.</div>
+							<div class="q">Q: If enemy shoots us in leg will we get permanently crippled like in old SWAT4 ^^ ?</div>
+							<div class="a mb-4">A: No. We are not trying to make a simulation. Game feel is more important to us.</div>
+							<div class="q">Q: Will individual infantry be able to call in their own strike? Or does the whole team or squad have to fight for the ability to call in a strike?</div>
+							<div class="a mb-4">A: Every soldier will be able to call in a strike, but it might be wise to listen to the squad leader every now and then and place it where he thinks be best.</div>
+							<div class="q">Q:"Will there be a limited amount of respawns"</div>
+							<div class="a mb-4">A: In warzone, no. In recon only one live (but there is a twist</div>
+							<div class="q">Q:Can you provide any more details about the squad or small team make up? Or talk about the squad leaders importance in detail?</div>
+							<div class="a mb-4">A: Our squad leader is the one that decides on the squad movement - marks targets and rally points etc. We try to make the leader work harder, but also get more from his/her play. We have an idea of how we want people to play in teams, but this will be brutally verified by the players, so we're expecting adjustments :P</div>
+							<div class="q">Q: Will MVP be additionally rewarded?</div>
+							<div class="a mb-4">A: All MVP squad will be additionally rewarded. TEAM WORK</div>
+							<div class="q">Q: Will control the speed of walk? Depends, for example, on the power of pressing a button.</div>
+							<div class="a mb-4">A: Your speed is determined by your body position and your equipment weight.</div>
+							<div class="q">Q:how will repairing a tank work?</div>
+							<div class="a mb-4">A: You won't be able to repair a damaged tank fully, but it's subsystems are repairable (optics, rcws etc.)</div>
+							<div class="q">Q: Since you are aiming for weapon realism as long as it doesn't negatively impact gameplay, are we going to see a ammo/reload system based on how many mags you have left (maybe even switch back to your half full mag when all your other mags are gone) or are we going to see a classic number of bullets remaining and your mag is always full? </div>
+							<div class="a mb-4">A: The former, you will see how many bullets you have left. We would prefer your players to focus on tactics rather than math</div>
+							<div class="q">Q:"Compared to Rising Storm 2: Vietnam, how similar WW3 gameplay will be?"</div>
+							<div class="a mb-4">A: While the gameplay isn't directly comparable, and obviously World War 3 features land vehicles and in-depth customization, we are definitely inspired by how the RO/RS series makes you feel like an actual soldier.</div>
+							<div class="q">Q: How difficult this game is compared to bf/cod?</div>
+							<div class="a mb-4">A: We're going a bit more the realistic way with recoil and gunplay.</div>
+							<div class="q">Q: "Will there be a lot of particle effects when it comes to explosions and fire?"</div>
+							<div class="a mb-4">A: Yeah! Our particle artists have bent over backwards to make the explosions look absolutely stunning. Remember the end of our trailer? Basically that kinda stuff.</div>
+						</div>
+					</div>
+	  			</div>
+				<div class="card">
+					<div class="card-header" id="headingFive">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+							  Servers
+							</button>
+						</h5>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="q">Q: Will custom server hosting be a thing?</div>
+							<div class="a mb-4">A: Not planned for near future, maybe after early access.</div>
+							<div class="q">Will game have a Dedicated Server support or will be just Matchmaking?</div>
+							<div class="a mb-4">A: we're using dedicated servers for our matches, but there will be no server browser for the Early Access start</div>
+							<div class="q">Q: Is the game peer-to-peer or star connection with server being the central node if server based system where are the servers going to be located?</div>
+							<div class="a mb-4">A: we're using dedicated servers for game hosting and players connect to them, P2P with that many players and vehicles wouldn't really work.</div>
+							<div class="q">Q: Will the Dev team look at SpatialOS Technology in the future? I think this is a really good opportunity to take the scale of a warfare based game to a truly epic level.</div>
+							<div class="a mb-4">A: We are aware of the technology, but we've decided to go with standard dedicated servers for our game.</div>
+							<div class="q">Q: South America Severs?</div>
+							<div class="a mb-4">A: we can't really say, but we'd like to have as many locations and continents as is possible.</div>
+							<div class="q">Q: "Where will the matchmaking servers be located at?"</div>
+							<div class="a mb-4">A: We can confirm US and EU, but probably we're gonna have more.</div>
+							<div class="q">What is your take on lag problems? Do you prioritize it somehow?</div>
+							<div class="a mb-4">A: We've had people focus on server optimization and networking from the beginning, we're testing on real servers, we got this</div>
+						</div>
+					</div>
+	  			</div>
+				<div class="card">
+					<div class="card-header" id="headingSix">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+							  Closed Alpha/Beta, Early Access, Cost, DLC
+							</button>
+						</h5>
+					</div>
+					<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+						<div class="card-body">
+						<div class="q">Q: We know that players won't be able to pilot jets or sail ships on the release of the game but Do you plan to make them drivable by players in the future?</div>
+							<div class="q">Q: How to get the first experience of the game?</div>
+							<div class="a mb-4">A: Follow our socials for more info :)</div>
+							<div class="q">Q: "About the Beta. Will the people who subscribed to the newsletter also get informed via email?"</div>
+							<div class="a mb-4">A: Yeah, that's what newsletters are for.</div>
+							<div class="q">Q: What kind of benefits will the early access grant?</div>
+							<div class="a mb-4">A: You can help us steer the game into the direction you want earlier. We're not joking about listening to community feedback and we have plans to make the communication between us easier.</div>
+							<div class="q">Q: Will there be embargo for closed beta test? Like streaming etc?</div>
+							<div class="a mb-4">A: At first there will be an embargo, but it will be lifted at some point during the closed beta.</div>
+							<div class="q">Q: Are there any specific requirements to join closed beta tests or anyone have a chance to join? Can we expect it before september?</div>
+							<div class="a mb-4">A; We'll announce enrollment on our social profiles and website, anyone will have a chance to join. You can also subscribe to the newsletter.</div>
+							<div class="q">Q: Do we need to register for early access</div>
+							<div class="a mb-4">A: No, all you need is Steam account</div>
+							<div class="q">Q: what is the expected R3L3ASE D4TE</div>
+							<div class="a mb-4">A: 2018</div>
+							<div class="q">Q: How long would you like to stay in EA?</div>
+							<div class="a mb-4">A: 12-15 months</div>
+							<div class="q">Q:Will there be a reward for people who bought the game for early access?</div>
+							<div class="a mb-4">A: Yes, we'd like to reward our most loyal fans who supported the game from the very beginning</div>
+							<div class="q">Q: How much the game will cost in steam ?</div>
+							<div class="a mb-4">A: Very affordable, certainly less than 60$</div>
+							<div class="q">COST Q: "Will there be different priced versions of the game? Or just one price and no premium/collectors edition etc?"</div>
+							<div class="a mb-4">A: For sure, not in early access</div>
+							<div class="q">Q: "you can buy stuff in game? is gonna be a pay to win...."</div>
+							<div class="a mb-4">A: You CAN buy stuff in game, but only for in-game currency you earn for playing. There will be no possibility of buying currency or gameplay-altering equipment for real money, hence there is no possibility of our game becoming pay to win.</div>
+							<div class="q">Q: DLCs or full game?</div>
+							<div class="a mb-4">A: Full game and then some cool DLC</div>
+							<div class="q">Q: Will we get any kind of microtransactions? Something like specific nation uniforms etc? Is there going to be a loot crate system?</div>
+							<div class="a mb-4">A: We've decided to not feature microtransactions ain Early Access, we'll think it over with the community and then decide. It's possible we'll introduce them but only for visuals but we're not planning on going pay 2 win ever</div>
+						</div>
+					</div>
+	  			</div>
+				<div class="card">
+					<div class="card-header" id="headingSeven">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+							  Community and Esports
+							</button>
+						</h5>
+					</div>
+					<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="q">Q: Will there be any kind of esport/competitive support? e.g. spectator mode, 4v4-8v8 game modes that would fit?"</div>
+							<div class="a mb-4">A:  Yes - we have some very big  ideas the kind of a multinational e-sport entertainment or online world-cups, but at first we've gotta finish the game and see how popular it gets. Spectator mode and TDM game modes are more possible, perhaps likely to appear during the first year after we get into Early Access.</div>
+							<div class="q">Q: Will a party system be implemented to make playing with a small or large group of friends easier than just hit play and hope to be squaded together</div>
+							<div class="a mb-4">A:  Yes, you'd be able to invite your steam friends to a team and together enter the fray.</div>
+							<div class="q">Q:"Will there be a way to make a clan, organization, or a method for fostering a community within the game?"</div>
+							<div class="a mb-4">A:Clan support will be added later in early access, for now you are able to create a squad in lobby and than join any battle with your mates. Cheers</div>
+							<div class="q">Q: Whats about russian official community?</div>
+							<div class="a mb-4">A: We'd very much like that and we're actively looking for a Russian speaking community manager, we already identified some promising candidates so it's only a matter of time now</div>
+						</div>
+					</div>
+	  			</div>
+				<div class="card">
+					<div class="card-header" id="headingEight">
+						<h5 class="mb-0">
+							<button class="btn btn-link text-danger collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+							  Development and Media
+							</button>
+						</h5>
+					</div>
+					<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+						<div class="card-body">
+							<div class="q">Q: How has the huge interest after the trailer changed the discussions of development, if at all?</div>
+							<div class="a mb-4">A: We've been watching literally everything that came out and it did change the internal discussion about the game, but we have a plan to follow so we can deliver EA when we're planning to.</div>
+							<div class="q">Q: "How big will be difference between trailer and EA product ? Usually AAAs like to overhype trailer and not deliver"</div>
+							<div class="a mb-4">A: We will release a gameplay trailer soon, you can see by yourself. But assets used in reveal trailer were all in-game assets.</div>
+							<div class="q">Q:"Will new game modes/maps be created from scratch or you already have some prototypes?"</div>
+							<div class="a mb-4">A:There are some prototypes but we want to give our community some choices in this topic.</div>
+							<div class="q">Q: Approximated gameplay release date?</div>
+							<div class="a mb-4">A: June/July. Soon, we're working on a gameplay trailer as we speak</div>
+							<div class="q">Q: Will you do another AMA after this?</div>
+							<div class="a mb-4">A: Yes, keep an eye on our socials</div>
+							<div class="q">Q: Will in-game name be same as Steam name or it will be custom and will it be required to use other name if someone already took it?</div>
+							<div class="a mb-4">A: Steam names will be used</div>
+							<div class="q">Q: What do you mean by modified UE4?</div>
+							<div class="a mb-4">A: We've modified some of the core UE4 functionality to fit our needs.</div>
+							<div class="q">Q: "How about game/fps Performance?"</div>
+							<div class="a mb-4">A: If your rig is around what we recommend on our Steam page there's nothing to worry about.</div>
+							<div class="q">Q: Can the game requirements be increased? Or rather the opposite?</div>
+							<div class="a mb-4">A: We are optimizing game to optimal requirements</div>
+							<div class="q">Q: "Is this game Blueprint based or normal c++ or hybrid ?"</div>
+							<div class="a mb-4">A: C++ 4 life!</div>
+							<div class="q">Q: How much you care about game sound quality?</div>
+							<div class="a mb-4">A: Very much But seriously, our last game (Get Even) was nominated for BAFTA for audio so don't worry</div>
+							<div class="q">Q: What anti cheat measures will you be implementing in the game?</div>
+							<div class="a mb-4">A: A trustworthy one but we can't give more details now</div>
+							<div class="q">Q: Will there be modding support and what kind of modding will be possible</div>
+							<div class="a mb-4">A: Not during early access.</div>
+							<div class="q">Q: "Have you guys considered going to kickstarter so people from different countries could support game with extra funds to get their national forces or capital into the game?"</div>
+							<div class="a mb-4">A: We've been thinking about that, it certainly is an idea worth keeping in mind but we cannot confirm that yet.</div>
+						</div>
+					</div>
+	  			</div>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 introText">
+				This website is operated and maintained by World War 3 community members and is in no way officially affliated with The Farm 51 in any offical capacity. All the information provided by this page is meant to inform the community as transparently as possible, while not interferring with the development of World War 3 or any of Farm 51's information pipeline.
+			</div>
+			<div class="col-md-6 f51Info">
+				<h5>The Farm 51 Social Media</h5>
+				<ul>
+					<li><a href="http://www.thefarm51.com/" target="_blank">The Farm 51 Studio</a></li>
+					<li><a href="https://worldwar3.com" target="_blank">World War 3 Official Site</a></li>
+					<li><a href="https://twitter.com/ww3thegame" target="_blank">WW3 Twitter</a></li>
+					<li><a href="https://www.reddit.com/r/WorldWar3Game/" target="_blank">WW3 Subreddit</a></li>
+					<li><a href="https://www.youtube.com/c/WorldWar3TheGame" target="_blank">WW3 Youtube</a></li>
+					<li><a href="https://store.steampowered.com/app/674020/World_War_3/" target="_blank">WW3 Steam Page</a></li>
+					<li><a href="https://discord.gg/QDeKzky" target="_blank">WW3 Discord</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="cdTimer.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</html>

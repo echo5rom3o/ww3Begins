@@ -1,0 +1,102 @@
+body{
+	background-color: #282828;
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	color: #db2e2e;
+}
+a:hover{
+	color: gray;
+}
+header{
+	background-image: url("http://worldwar3.com/wp-content/uploads/2018/05/WorldWar3_KeyArt_2k__logo.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: rgba(4,12,27,.98);
+	height: 625px;
+}
+.socialLinks{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.fab{
+	color: #db2e2e;
+	font-size: 1.5em;
+}
+.logo{
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.timerHeader{
+	background-color: rgba(0,0,0,.8);
+	border-radius: 5px;
+}
+.timer{
+	display: block;
+	margin: 45px auto 0 auto;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	width: 350px;
+	border-radius: 15px;
+	height: auto;
+}
+.timer span{
+	padding: 0 3px 0 3px;
+	margin: 0;
+	text-align: center;
+}
+.timeBox{
+	background-color: rgba(0,0,0,.6);
+	border-radius: 5px;
+}
+.timerText{
+	font-size: 24px;
+}
+#secs{
+	color: #db2e2e;
+}
+.disclaimer{
+	font-size: 13px;
+	color: #db2e2e;
+	padding: 10px 15px 10px 15px;
+	background-color: rgba(0,0,0,.8);
+	border-radius: 5px;
+}
+.btn:focus{
+	outline: none;
+}
+.btn-ww3{
+	background-color: #db2e2e;
+}
+.text-ww3 a{
+	color: #db2e2e;
+}
+.card{
+	background-color: #474747;
+}
+.q{
+	font-weight: bold;
+}
+.introText{
+	margin: auto;
+}
+.f51Info{
+	padding: 50px 0;
+}
+.f51Info h5{
+	text-align: center;
+}
+.f51Info ul{
+	margin: auto;
+	width: 50%;
+}
+footer{
+	background-color: rgba(5, 5, 5,.98);
+	height: auto;
+}
